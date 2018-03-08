@@ -1,4 +1,6 @@
-url_scheme
-    main_url_pattern
-    rest_url_pattern
+parameters:
+    main_url_pattern: "https://www.yelp.com/search?find_desc=&find_loc={zip_code}&ns=1"
+    main_url_next_page_pattern: "https://www.yelp.com/search?find_loc=Chicago,+IL+{zip_code}&start={count}"
+    zipcode: 60610
+
     
